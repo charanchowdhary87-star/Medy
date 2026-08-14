@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (Phase 2/3)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datasets & large model artifacts (Phase 2/3)
+datasets/raw/
+models/checkpoints/
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Vite cache
+*.tsbuildinfo
+node_modules/.tmp
